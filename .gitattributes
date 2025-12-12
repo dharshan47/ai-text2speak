@@ -1,0 +1,13 @@
+# GitHub Linguist configuration to detect TypeScript correctly
+dist/* linguist-vendored
+build/* linguist-vendored
+out/* linguist-vendored
+node_modules/* linguist-vendored
+
+*.config.js linguist-vendored
+vite.config.js linguist-vendored
+tailwind.config.js linguist-vendored
+postcss.config.js linguist-vendored
+
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
